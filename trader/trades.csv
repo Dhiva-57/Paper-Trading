@@ -1,0 +1,4 @@
+timestamp,event,symbol,details
+2026-10-30T14:37:25.601357+00:00,ERROR,,"('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+2026-10-30T14:43:08.147329+00:00,BUY_BRACKET,TSLA,order=75300152-1af3-4a17-a16a-6fcbf040d155; qty=35; entry=401.8; stop=387.6; target=430.2
+2026-10-30T15:13:25.575828+00:00,NEWS_BLOCK,AMZN,defensives lead sectors in friday trading as growth trails

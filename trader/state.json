@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-30",
+  "start_equity": 100000.0,
+  "trades": 1,
+  "symbols_traded": [
+    "TSLA"
+  ]
+}

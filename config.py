@@ -1,0 +1,30 @@
+# Paper-only trading configuration
+
+PAPER_TRADING = True
+ALLOW_LIVE_TRADING = False
+ALLOW_SHORTING = False
+
+WATCHLIST = ["AAPL","MSFT","NVDA","AMZN","META","TSLA","AMD","GOOGL"]
+
+# Strategy
+OPENING_RANGE_MINUTES = 15
+MIN_VOLUME_RATIO = 1.5
+ENTRY_START_MINUTES = 15       # 09:45 ET
+ENTRY_CUTOFF_HOUR = 11
+ENTRY_CUTOFF_MINUTE = 30
+
+# Risk
+MAX_RISK_PER_TRADE = 0.005     # 0.5% of equity
+MAX_DAILY_LOSS = 0.02          # 2% of start-of-day equity
+MAX_TRADES_PER_DAY = 3
+MIN_REWARD_RISK = 2.0
+
+# Exit
+EOD_EXIT_HOUR = 15
+EOD_EXIT_MINUTE = 50
+
+# Loop
+SCAN_INTERVAL_SECONDS = 60
+
+# Data
+DATA_FEED = "IEX"
